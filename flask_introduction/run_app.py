@@ -1,6 +1,6 @@
 import os
 
-from library._01_simple import app
+# from library._01_simple import app
 # from library._02_html_inside_view import app
 # from library._03_template_str_inside_view import app
 # from library._04_template_outside_view import app
@@ -11,7 +11,7 @@ from library._01_simple import app
 # from library._09_simple_form_submission import app
 # from library._10_static_files import app
 # from library._11_template_inheritance import app
-
+from library._12_template_inheritance_dynamic import app
 
 if __name__ == '__main__':
     app.debug = True
